@@ -1,6 +1,6 @@
 # encoding: UTF-8
 $:.push File.expand_path("../lib", __FILE__)
-require 'open_project/emoji/version'
+require 'open_project/WikiExtension/version'
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
 s.name = 'openproject_wiki_extention_plugin'
