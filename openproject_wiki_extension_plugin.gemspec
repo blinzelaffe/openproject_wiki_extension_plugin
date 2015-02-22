@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require 'open_project/WikiExtension/version'
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-s.name = 'openproject_wiki_extention_plugin'
+s.name = 'openproject_wiki_extension_plugin'
 s.version = OpenProject::WikiExtension::VERSION
 s.authors = 'Marcus Drobisch'
 s.email = 'm.drobisch@googlemail.com'
