@@ -12,6 +12,6 @@
 #++
 module OpenProject
   module WikiExtension
-    require "open_project/WikiExtension/wiki_extension_iframe_macro"
+    require 'open_project/WikiExtension/wiki_extension_iframe_macro'
   end
 end
