@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
   s.description = "Extending wiki formating macros"
   s.license = "GPLv3"
   
-  s.files = Dir["{app,config,db,doc,lib,vendor}/**/*"] + %w(README.md)
+  #s.files = Dir["{app,config,db,doc,lib,vendor}/**/*"] + %w(README.md)
+  s.files = Dir["{lib}/**/*"] + %w(README.md)
 
   s.add_dependency(%q<rails>, ["~> 3.2.9"])
 end
